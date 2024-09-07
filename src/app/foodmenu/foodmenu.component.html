@@ -1,0 +1,27 @@
+
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Red+Hat+Text:ital,wght@0,300..700;1,300..700&display=swap" rel="stylesheet">
+</head>
+
+
+    <div class="container">
+        <h1>Desserts</h1>
+      
+        <div class="image-items">
+            
+                    @for(item of foodItems;track $index){
+                        <app-foodgallery
+                            [url]="item.url"
+                            [title]="item.title"
+                            [subtitle]="item.subtitle"
+                            [price]="item.price">
+
+                        </app-foodgallery>
+    
+                    }
+          
+        </div>
+
+        </div>

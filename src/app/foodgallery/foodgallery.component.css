@@ -1,0 +1,30 @@
+.image-gallery {
+    text-align: center; /* Centers the text and image */
+    border: 1px solid #ddd; /* Optional: adds a border around the gallery item */
+    padding: 16px; /* Adds some space inside the gallery item */
+    margin: 16px; /* Adds space between gallery items */
+    border-radius: 8px; /* Rounds the corners of the gallery item */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow for depth */
+}
+
+.image-gallery img {
+    max-width: 100%; /* Ensures the image does not overflow the container */
+    height: auto; /* Keeps the image aspect ratio */
+    border-radius: 8px; /* Rounds the corners of the image */
+}
+
+.image-gallery h2 {
+    font-size: 1.5em; /* Larger font size for the subtitle */
+    margin: 8px 0; /* Adds space above and below the subtitle */
+}
+
+.image-gallery h3 {
+    font-size: 1.2em; /* Smaller font size for the title */
+    margin: 4px 0; /* Adds space above and below the title */
+}
+
+.image-gallery p {
+    font-size: 1em; /* Standard font size for the price */
+    color: #333; /* Dark color for better readability */
+    margin: 8px 0; /* Adds space above and below the price */
+}
