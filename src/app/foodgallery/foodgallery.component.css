@@ -1,7 +1,7 @@
 /* Container for each gallery item */
 .image-gallery {
     text-align: center; /* Centers the text and image */
-    border: 1px solid #ddd; /* Border around the gallery item */
+     /* Border around the gallery item */
     padding: 12px; /* Space inside the gallery item */
     margin: 16px; /* Space between gallery items */
     border-radius: 8px; /* Rounded corners */
@@ -16,6 +16,7 @@
     height: auto; /* Maintain aspect ratio */
     border-radius: 4px; /* Slightly rounded corners */
     margin-bottom: 8px; /* Space between image and text */
+    border-radius: 18px;
 }
 
 /* Subtitle styling */
@@ -42,5 +43,5 @@
 /* Hover effects */
 .image-gallery:hover {
     transform: scale(1.05); /* Slightly enlarge on hover */
-    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15); /* Enhanced shadow on hover */
+    box-shadow: 0 6px 12px rgba(147, 124, 124, 0.15); /* Enhanced shadow on hover */
 }
